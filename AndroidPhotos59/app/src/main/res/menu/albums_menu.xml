@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.photolibrary.controller.Albums">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/addAlbum"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/action_add"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/deleteAlbum"
+        android:icon="@drawable/ic_action_delete"
+        android:title="@string/action_delete"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/openAlbum"
+        android:title="@string/open"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/renameAlbum"
+        android:title="@string/rename"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>

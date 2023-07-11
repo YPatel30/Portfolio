@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.photolibrary.controller.Photos">
+
+    <item
+        android:id="@+id/addPhoto"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/action_add"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/deletePhoto"
+        android:icon="@drawable/ic_action_delete"
+        android:title="@string/action_delete"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/displayPicture"
+        android:title="@string/display"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>

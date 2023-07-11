@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f54260;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SongLib.SongLibController">
+   <children>
+      <Button fx:id="buttonAdd" layoutX="58.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonAdd" prefHeight="23.0" prefWidth="86.0" style="-fx-background-color: #f5a2bf;" text="Add" visible="true">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonEdit" layoutX="257.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonEdit" prefHeight="23.0" prefWidth="86.0" style="-fx-background-color: #f5a2bf;" text="Edit">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteButton" layoutX="452.0" layoutY="91.0" mnemonicParsing="false" onAction="#deleteButton" prefHeight="23.0" prefWidth="86.0" style="-fx-background-color: #f5a2bf;" text="Delete">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+      <ListView fx:id="SongList" layoutX="262.0" layoutY="140.0" onMouseClicked="#selectNode" prefHeight="260.0" prefWidth="338.0" />
+      <TextField fx:id="Title" editable="false" layoutX="86.0" layoutY="184.0" />
+      <TextField fx:id="Artist" editable="false" layoutX="86.0" layoutY="223.0" />
+      <TextField fx:id="Album" editable="false" layoutX="86.0" layoutY="262.0" />
+      <TextField fx:id="Year" editable="false" layoutX="86.0" layoutY="302.0" />
+      <Text layoutX="33.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Song">
+         <font>
+            <Font name="Heiti TC Light" size="13.0" />
+         </font></Text>
+      <Text layoutX="33.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Artist">
+         <font>
+            <Font name="Heiti TC Light" size="13.0" />
+         </font></Text>
+      <Text layoutX="33.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album">
+         <font>
+            <Font name="Heiti TC Light" size="13.0" />
+         </font></Text>
+      <Text layoutX="36.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+         <font>
+            <Font name="Heiti TC Light" size="13.0" />
+         </font></Text>
+      <Button fx:id="SavebuttonEdit" layoutX="35.0" layoutY="355.0" mnemonicParsing="false" onAction="#SaveEdit" prefHeight="23.0" prefWidth="86.0" style="-fx-background-color: #f5a2bf;" text="Save" visible="false">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonCancel" layoutX="137.0" layoutY="355.0" mnemonicParsing="false" onAction="#buttonCancel" prefHeight="23.0" prefWidth="86.0" style="-fx-background-color: #f5a2bf;" text="Cancel" visible="false">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="saveButton" layoutX="41.0" layoutY="357.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="23.0" prefWidth="86.0" style="-fx-background-color: #f5a2bf;" text="Save" visible="false">
+         <font>
+            <Font name="Heiti TC Medium" size="13.0" />
+         </font>
+      </Button>
+      <Text layoutX="192.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Song Library">
+         <font>
+            <Font name="Heiti TC Medium" size="37.0" />
+         </font>
+      </Text>
+      <Text layoutX="101.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Song Details" wrappingWidth="111.35047912597656">
+         <font>
+            <Font name="Heiti TC Light" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

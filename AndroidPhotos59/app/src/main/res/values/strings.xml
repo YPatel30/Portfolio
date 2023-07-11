@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Photo Library</string>
+
+
+    <!-- Action Bar Album strings -->
+    <string name="action_search">Search</string>
+    <string name="action_add">Add Album</string>
+    <string name="action_delete">Delete Album</string>
+
+    <!-- button strings -->
+    <string name="previous"><![CDATA[<-]]></string>
+    <string name="next"><![CDATA[->]]></string>
+    <string name="add_tag">Add Tag</string>
+    <string name="delete_tag">Delete Tag</string>
+    <string name="img_description">image display</string>
+    <string name="search">Search</string>
+    <string name="move_photo">Move</string>
+    <string name="rename">Rename</string>
+    <string name="open">Open</string>
+    <string name="display">Display</string>
+
+
+    <!-- names for Spinner drop down in search -->
+    <string-array name="tagNames">
+        <item>person</item>
+        <item>location</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@color/purple_200"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="@string/previous"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="40dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="@string/next"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/displaypic"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/white"
+        android:contentDescription="@string/img_description"
+        android:scaleType="fitCenter" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/tags"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/activatedBackgroundIndicator"
+            android:choiceMode="singleChoice"
+            android:listSelector="@color/purple_200" />
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/addTagButton"
+                android:layout_width="147dp"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="@string/add_tag"
+                android:textColor="#073E38"
+                android:textColorLink="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/deleteTagButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="@string/delete_tag"
+                android:textColor="#073E38"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
