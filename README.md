@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
-- <b>Android App</b>
+- <b>Android Photo Library App</b>
   - [Link To Project](https://github.com/YPatel30/Portfolio/tree/main/AndroidPhotos59)
 - <b>Song Library App</b>
   - [Link To Project](https://github.com/YPatel30/Portfolio/tree/main/SongLib59)
